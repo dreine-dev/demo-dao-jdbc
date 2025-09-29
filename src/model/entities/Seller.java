@@ -57,7 +57,7 @@ public class Seller implements Serializable {
 	}
 
 	public void setBirthDate(Date BirthDate) {
-		BirthDate = BirthDate;
+		this.BirthDate = BirthDate;
 	}
 
 	public Double getBaseSalary() {
